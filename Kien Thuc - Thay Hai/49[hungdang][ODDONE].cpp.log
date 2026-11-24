@@ -1,0 +1,15 @@
+ ﻿hungdang‣ODDONE: ℱ Dịch lỗi
+ODDONE.cpp
+"C:\Program Files (x86)\Themis\gcc\bin\g++.exe" -std=c++14 "ODDONE.cpp" -pipe -O2 -s -static -lm -x c++ -o"ODDONE.exe" -Wl,--stack,66060288|@WorkDir=D:\ProgramData\ThemisWorkSpace\WaitRoom17134\
+ODDONE.cpp: In function 'void solve()':
+ODDONE.cpp:24:18: error: 'gcd' was not declared in this scope
+   24 |         pre[i] = gcd(pre[i-1], a[i]);
+      |                  ^~~
+ODDONE.cpp:27:18: error: 'gcd' was not declared in this scope
+   27 |         suf[i] = gcd(suf[i+1], a[i]);
+      |                  ^~~
+ODDONE.cpp:29:16: error: 'gcd' was not declared in this scope
+   29 |         ll x = gcd(pre[i-1], suf[i+1]);
+      |                ^~~
+Dịch lỗi!
+
